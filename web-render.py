@@ -45,6 +45,8 @@ class HTMLElement:
             x = (available_width - text_width) // 2
         elif align == 'left':
             x = 0
+        elif align == 'right':
+            x = 800
         else:
             x = available_width - text_width
 
